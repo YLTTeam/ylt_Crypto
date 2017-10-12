@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLT_Crypto_Example' do
+  pod 'YLT_Crypto', :path => '../'
+
+  target 'YLT_Crypto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

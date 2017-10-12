@@ -1,0 +1,22 @@
+{
+  "name": "YLT_Crypto",
+  "version": "0.1.0",
+  "summary": "A short description of YLT_Crypto.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xphaijj0305@126.com/YLT_Crypto",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xphaijj0305@126.com": "xiangpuhua@126.com"
+  },
+  "source": {
+    "git": "https://github.com/xphaijj0305@126.com/YLT_Crypto.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLT_Crypto/Classes/**/*"
+}

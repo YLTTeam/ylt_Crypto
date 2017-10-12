@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A41A27A97D0D4B091B70E163CF8566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		143D2ACBA979D00EA8E86C8FB923520E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1AB7BEC8DC0BFA8A16690D1312909C6C /* YLT_RSACrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF48E55C2174BC64A8053FE00449B7 /* YLT_RSACrypto.m */; };
+		23FD18BA3915D8B8A8E8C36258179B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		319536886235C85D75D4BF5AA802FC9D /* YLT_Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9C5CF5EE10B9CBA2FCB1C3B0C4AB90 /* YLT_Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C30C44C26143822D94325B1C772092 /* Pods-YLT_Crypto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C3886921D3C5F62BEE45629CFFA6BB /* Pods-YLT_Crypto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA745921B51BDB80815216D35DA2134 /* YLT_Crypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F91BA89AE7A6C0FF08704EA02AEA1669 /* YLT_Crypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1527A5F1F895C2193408104D83DDE7 /* Pods-YLT_Crypto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8601BDBA80D48447669CD4BEA114C181 /* Pods-YLT_Crypto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		454751418A345CD8717C6C99603CCACD /* YLT_CryptoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA60ABA3D17A1675CFD37FB88E4A539 /* YLT_CryptoTools.m */; };
+		4F39E8274AC26E6F4CBE01248B60A1DB /* YLT_AESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */; };
+		56339A0F3F41EA9B547401AFC997DE02 /* YLT_AESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43598B96DC4EC202F09ADF8DFF390A5 /* YLT_DESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEFCA2ADD9FC4B79C015B91541C463E /* YLT_DESCrypto.m */; };
+		B0778ECECA057298FFBB5071DCE7DFCB /* Pods-YLT_Crypto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B251DA943F36CF165B4FC97F405BF27D /* Pods-YLT_Crypto_Example-dummy.m */; };
+		B4724D5C4C7478B0A7A46B944E7A7DE6 /* YLT_Crypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4556DE4C319BB32168463176FC33F9CA /* YLT_Crypto-dummy.m */; };
+		C3C33694B3A3CD6BDC78B48F45F813A2 /* YLT_DESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EF4A19BE7C649C0FA62454C797CA07 /* YLT_DESCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD28A11544EE2D4B89270C3D2E4F751 /* Pods-YLT_Crypto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6A83D26B28D8A70F221C09444E10 /* Pods-YLT_Crypto_Tests-dummy.m */; };
+		D3DA090BFE34638AB28B6CF0D32B7E2B /* YLT_CryptoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CF661F574E4E30B334B8A70A461DBE /* YLT_CryptoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D504F38C1637544C9B3F87A98FE1AC60 /* YLT_RSACrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4E6C0FED065E8C238A5FDEEAE16D2E /* YLT_RSACrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39A13F28FDE8C47B5D6163A037051DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97546F1A8D262F70E17A1D9454B3DE51;
+			remoteInfo = YLT_Crypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C1E1993C9F032B68ADF17F1609BF51 /* Pods-YLT_Crypto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_AESCrypto.h; path = YLT_Crypto/Classes/YLT_AESCrypto.h; sourceTree = "<group>"; };
+		1CBF5B454EB098977FA5EAD342E77B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F210E5BBD183E78C464AECED225931D /* Pods-YLT_Crypto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLT_Crypto_Tests.modulemap"; sourceTree = "<group>"; };
+		2697965461B9DF0654F85B72CA8CA4B8 /* Pods-YLT_Crypto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLT_Crypto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2820A2DDF1D64BA36408025A51B79C8B /* Pods-YLT_Crypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4556DE4C319BB32168463176FC33F9CA /* YLT_Crypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLT_Crypto-dummy.m"; sourceTree = "<group>"; };
+		4B49351F2C531A9EBE48FC8F4E37B660 /* Pods-YLT_Crypto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLT_Crypto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51F2EFC16F6499CF2E8B2B9BA4559194 /* Pods-YLT_Crypto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Tests-resources.sh"; sourceTree = "<group>"; };
+		527A6A83D26B28D8A70F221C09444E10 /* Pods-YLT_Crypto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_Crypto_Tests-dummy.m"; sourceTree = "<group>"; };
+		575F2308189C81BC4155C87412B769FA /* Pods-YLT_Crypto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742375A73C461F72E331C11CE4F2B333 /* Pods-YLT_Crypto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLT_Crypto_Example.modulemap"; sourceTree = "<group>"; };
+		7BA60ABA3D17A1675CFD37FB88E4A539 /* YLT_CryptoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_CryptoTools.m; path = YLT_Crypto/Classes/YLT_CryptoTools.m; sourceTree = "<group>"; };
+		83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_AESCrypto.m; path = YLT_Crypto/Classes/YLT_AESCrypto.m; sourceTree = "<group>"; };
+		8601BDBA80D48447669CD4BEA114C181 /* Pods-YLT_Crypto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLT_Crypto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8D4E6C0FED065E8C238A5FDEEAE16D2E /* YLT_RSACrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_RSACrypto.h; path = YLT_Crypto/Classes/YLT_RSACrypto.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9424C14B9BD4B82907C9CFCE4DF5E69C /* Pods_YLT_Crypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLT_Crypto_Example.framework; path = "Pods-YLT_Crypto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962BA33817746C890F566A675018D8FB /* YLT_Crypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YLT_Crypto.modulemap; sourceTree = "<group>"; };
+		96634FB5F75289EFF68802ABE0B20B8E /* Pods-YLT_Crypto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLT_Crypto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1C3886921D3C5F62BEE45629CFFA6BB /* Pods-YLT_Crypto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLT_Crypto_Example-umbrella.h"; sourceTree = "<group>"; };
+		A2A27B471C2E0987D7779F94785C6F07 /* YLT_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLT_Crypto.framework; path = YLT_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CF661F574E4E30B334B8A70A461DBE /* YLT_CryptoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_CryptoTools.h; path = YLT_Crypto/Classes/YLT_CryptoTools.h; sourceTree = "<group>"; };
+		AC34D72E7CB29F3594664E0252CAED9B /* Pods-YLT_Crypto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B251DA943F36CF165B4FC97F405BF27D /* Pods-YLT_Crypto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_Crypto_Example-dummy.m"; sourceTree = "<group>"; };
+		BC6474EBFDE19F00347B8775A1F4C914 /* Pods-YLT_Crypto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLT_Crypto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCBF48E55C2174BC64A8053FE00449B7 /* YLT_RSACrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_RSACrypto.m; path = YLT_Crypto/Classes/YLT_RSACrypto.m; sourceTree = "<group>"; };
+		D134026C69B6DD8B1881B533B2961070 /* Pods-YLT_Crypto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D4EF4A19BE7C649C0FA62454C797CA07 /* YLT_DESCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_DESCrypto.h; path = YLT_Crypto/Classes/YLT_DESCrypto.h; sourceTree = "<group>"; };
+		D7CCCCC6D070E3B93053E0112B289F17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E637CAAB177CFA649175CF8610582 /* YLT_Crypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLT_Crypto-prefix.pch"; sourceTree = "<group>"; };
+		DBEFCA2ADD9FC4B79C015B91541C463E /* YLT_DESCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_DESCrypto.m; path = YLT_Crypto/Classes/YLT_DESCrypto.m; sourceTree = "<group>"; };
+		E804DAB8F8EDE90BB85906D9A4920AE5 /* Pods-YLT_Crypto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2DAE95F52DC52F33DEB35E0765D1B4 /* YLT_Crypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLT_Crypto.xcconfig; sourceTree = "<group>"; };
+		EA9C5CF5EE10B9CBA2FCB1C3B0C4AB90 /* YLT_Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_Crypto.h; path = YLT_Crypto/Classes/YLT_Crypto.h; sourceTree = "<group>"; };
+		EABFDBBC5408662ECF94D46E1B4471D1 /* Pods-YLT_Crypto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Example-resources.sh"; sourceTree = "<group>"; };
+		F62C91D92B3508CBF69420032042EFDB /* Pods_YLT_Crypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLT_Crypto_Tests.framework; path = "Pods-YLT_Crypto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73C125A8D6DBD33562518A76776BD4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91BA89AE7A6C0FF08704EA02AEA1669 /* YLT_Crypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLT_Crypto-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C206B2E1C1CE7DF10FC5AB7264A290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A41A27A97D0D4B091B70E163CF8566 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F321D12B66E1430913140FE4CCC2EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143D2ACBA979D00EA8E86C8FB923520E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF5391EACD2FB876BA3E44696655909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FD18BA3915D8B8A8E8C36258179B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BE9327CC069A742C7A86DC6D9A22A8 /* Pods-YLT_Crypto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D7CCCCC6D070E3B93053E0112B289F17 /* Info.plist */,
+				742375A73C461F72E331C11CE4F2B333 /* Pods-YLT_Crypto_Example.modulemap */,
+				2697965461B9DF0654F85B72CA8CA4B8 /* Pods-YLT_Crypto_Example-acknowledgements.markdown */,
+				96634FB5F75289EFF68802ABE0B20B8E /* Pods-YLT_Crypto_Example-acknowledgements.plist */,
+				B251DA943F36CF165B4FC97F405BF27D /* Pods-YLT_Crypto_Example-dummy.m */,
+				AC34D72E7CB29F3594664E0252CAED9B /* Pods-YLT_Crypto_Example-frameworks.sh */,
+				EABFDBBC5408662ECF94D46E1B4471D1 /* Pods-YLT_Crypto_Example-resources.sh */,
+				A1C3886921D3C5F62BEE45629CFFA6BB /* Pods-YLT_Crypto_Example-umbrella.h */,
+				E804DAB8F8EDE90BB85906D9A4920AE5 /* Pods-YLT_Crypto_Example.debug.xcconfig */,
+				575F2308189C81BC4155C87412B769FA /* Pods-YLT_Crypto_Example.release.xcconfig */,
+			);
+			name = "Pods-YLT_Crypto_Example";
+			path = "Target Support Files/Pods-YLT_Crypto_Example";
+			sourceTree = "<group>";
+		};
+		53205E97BD1E3B484548E2E00A868FC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF5B454EB098977FA5EAD342E77B22 /* Info.plist */,
+				962BA33817746C890F566A675018D8FB /* YLT_Crypto.modulemap */,
+				EA2DAE95F52DC52F33DEB35E0765D1B4 /* YLT_Crypto.xcconfig */,
+				4556DE4C319BB32168463176FC33F9CA /* YLT_Crypto-dummy.m */,
+				DA2E637CAAB177CFA649175CF8610582 /* YLT_Crypto-prefix.pch */,
+				F91BA89AE7A6C0FF08704EA02AEA1669 /* YLT_Crypto-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLT_Crypto";
+			sourceTree = "<group>";
+		};
+		734C26DF2BE60426490D5CB4EE1B1E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9424C14B9BD4B82907C9CFCE4DF5E69C /* Pods_YLT_Crypto_Example.framework */,
+				F62C91D92B3508CBF69420032042EFDB /* Pods_YLT_Crypto_Tests.framework */,
+				A2A27B471C2E0987D7779F94785C6F07 /* YLT_Crypto.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FDB535F19EFD7097D9C2AB240A48EC81 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				734C26DF2BE60426490D5CB4EE1B1E8D /* Products */,
+				D45A0B5C020656EB40DC8F3F86E6BB76 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7A70486F4E6DCE8332A40148D1F01D /* YLT_Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */,
+				83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */,
+				EA9C5CF5EE10B9CBA2FCB1C3B0C4AB90 /* YLT_Crypto.h */,
+				A8CF661F574E4E30B334B8A70A461DBE /* YLT_CryptoTools.h */,
+				7BA60ABA3D17A1675CFD37FB88E4A539 /* YLT_CryptoTools.m */,
+				D4EF4A19BE7C649C0FA62454C797CA07 /* YLT_DESCrypto.h */,
+				DBEFCA2ADD9FC4B79C015B91541C463E /* YLT_DESCrypto.m */,
+				8D4E6C0FED065E8C238A5FDEEAE16D2E /* YLT_RSACrypto.h */,
+				BCBF48E55C2174BC64A8053FE00449B7 /* YLT_RSACrypto.m */,
+				53205E97BD1E3B484548E2E00A868FC5 /* Support Files */,
+			);
+			name = YLT_Crypto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8B6BB7387251E159DCCE712CEC7AB18 /* Pods-YLT_Crypto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F73C125A8D6DBD33562518A76776BD4B /* Info.plist */,
+				1F210E5BBD183E78C464AECED225931D /* Pods-YLT_Crypto_Tests.modulemap */,
+				4B49351F2C531A9EBE48FC8F4E37B660 /* Pods-YLT_Crypto_Tests-acknowledgements.markdown */,
+				BC6474EBFDE19F00347B8775A1F4C914 /* Pods-YLT_Crypto_Tests-acknowledgements.plist */,
+				527A6A83D26B28D8A70F221C09444E10 /* Pods-YLT_Crypto_Tests-dummy.m */,
+				D134026C69B6DD8B1881B533B2961070 /* Pods-YLT_Crypto_Tests-frameworks.sh */,
+				51F2EFC16F6499CF2E8B2B9BA4559194 /* Pods-YLT_Crypto_Tests-resources.sh */,
+				8601BDBA80D48447669CD4BEA114C181 /* Pods-YLT_Crypto_Tests-umbrella.h */,
+				03C1E1993C9F032B68ADF17F1609BF51 /* Pods-YLT_Crypto_Tests.debug.xcconfig */,
+				2820A2DDF1D64BA36408025A51B79C8B /* Pods-YLT_Crypto_Tests.release.xcconfig */,
+			);
+			name = "Pods-YLT_Crypto_Tests";
+			path = "Target Support Files/Pods-YLT_Crypto_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D45A0B5C020656EB40DC8F3F86E6BB76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BE9327CC069A742C7A86DC6D9A22A8 /* Pods-YLT_Crypto_Example */,
+				C8B6BB7387251E159DCCE712CEC7AB18 /* Pods-YLT_Crypto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDB535F19EFD7097D9C2AB240A48EC81 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7A70486F4E6DCE8332A40148D1F01D /* YLT_Crypto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DDA27D5A2075CC9CABEB5806D545366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1527A5F1F895C2193408104D83DDE7 /* Pods-YLT_Crypto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA297B4F9567B7ED7BCF9FED56467B3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56339A0F3F41EA9B547401AFC997DE02 /* YLT_AESCrypto.h in Headers */,
+				3EA745921B51BDB80815216D35DA2134 /* YLT_Crypto-umbrella.h in Headers */,
+				319536886235C85D75D4BF5AA802FC9D /* YLT_Crypto.h in Headers */,
+				D3DA090BFE34638AB28B6CF0D32B7E2B /* YLT_CryptoTools.h in Headers */,
+				C3C33694B3A3CD6BDC78B48F45F813A2 /* YLT_DESCrypto.h in Headers */,
+				D504F38C1637544C9B3F87A98FE1AC60 /* YLT_RSACrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F683410A4386C526884411634A56038D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C30C44C26143822D94325B1C772092 /* Pods-YLT_Crypto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97546F1A8D262F70E17A1D9454B3DE51 /* YLT_Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FC22A61F22E9A0CA64B9CF98F74C7F /* Build configuration list for PBXNativeTarget "YLT_Crypto" */;
+			buildPhases = (
+				50FBE3F4569D4DED06316FD0334FB832 /* Sources */,
+				9F321D12B66E1430913140FE4CCC2EE2 /* Frameworks */,
+				CA297B4F9567B7ED7BCF9FED56467B3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLT_Crypto;
+			productName = YLT_Crypto;
+			productReference = A2A27B471C2E0987D7779F94785C6F07 /* YLT_Crypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A78C68FA1F00602E0D5F00D904E9CE1E /* Pods-YLT_Crypto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F757B8AC58D9AB00B146F6C5208CD4 /* Build configuration list for PBXNativeTarget "Pods-YLT_Crypto_Tests" */;
+			buildPhases = (
+				282107B440B39E311C1294D4E97318B3 /* Sources */,
+				BBF5391EACD2FB876BA3E44696655909 /* Frameworks */,
+				1DDA27D5A2075CC9CABEB5806D545366 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YLT_Crypto_Tests";
+			productName = "Pods-YLT_Crypto_Tests";
+			productReference = F62C91D92B3508CBF69420032042EFDB /* Pods_YLT_Crypto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C311FDDEFB09CBEC5C00413CC7180608 /* Pods-YLT_Crypto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF5FDE3ED3F82C7DA71602932E37E5E /* Build configuration list for PBXNativeTarget "Pods-YLT_Crypto_Example" */;
+			buildPhases = (
+				A11965138420871C7D500CB8CAC8945E /* Sources */,
+				9C206B2E1C1CE7DF10FC5AB7264A290B /* Frameworks */,
+				F683410A4386C526884411634A56038D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52029DF34901562F60FE5B94BBA8589 /* PBXTargetDependency */,
+			);
+			name = "Pods-YLT_Crypto_Example";
+			productName = "Pods-YLT_Crypto_Example";
+			productReference = 9424C14B9BD4B82907C9CFCE4DF5E69C /* Pods_YLT_Crypto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 734C26DF2BE60426490D5CB4EE1B1E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C311FDDEFB09CBEC5C00413CC7180608 /* Pods-YLT_Crypto_Example */,
+				A78C68FA1F00602E0D5F00D904E9CE1E /* Pods-YLT_Crypto_Tests */,
+				97546F1A8D262F70E17A1D9454B3DE51 /* YLT_Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282107B440B39E311C1294D4E97318B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD28A11544EE2D4B89270C3D2E4F751 /* Pods-YLT_Crypto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FBE3F4569D4DED06316FD0334FB832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F39E8274AC26E6F4CBE01248B60A1DB /* YLT_AESCrypto.m in Sources */,
+				B4724D5C4C7478B0A7A46B944E7A7DE6 /* YLT_Crypto-dummy.m in Sources */,
+				454751418A345CD8717C6C99603CCACD /* YLT_CryptoTools.m in Sources */,
+				A43598B96DC4EC202F09ADF8DFF390A5 /* YLT_DESCrypto.m in Sources */,
+				1AB7BEC8DC0BFA8A16690D1312909C6C /* YLT_RSACrypto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11965138420871C7D500CB8CAC8945E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0778ECECA057298FFBB5071DCE7DFCB /* Pods-YLT_Crypto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52029DF34901562F60FE5B94BBA8589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YLT_Crypto;
+			target = 97546F1A8D262F70E17A1D9454B3DE51 /* YLT_Crypto */;
+			targetProxy = 39A13F28FDE8C47B5D6163A037051DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76AE1A60466C2BAE56EE037C8A6D9FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C1E1993C9F032B68ADF17F1609BF51 /* Pods-YLT_Crypto_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLT_Crypto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLT_Crypto_Tests/Pods-YLT_Crypto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YLT_Crypto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		950953AF1EAC8AF4CE441C7A023AB1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2820A2DDF1D64BA36408025A51B79C8B /* Pods-YLT_Crypto_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLT_Crypto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLT_Crypto_Tests/Pods-YLT_Crypto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YLT_Crypto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BEA71FD046A81A9A7DF08CD026F5EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E804DAB8F8EDE90BB85906D9A4920AE5 /* Pods-YLT_Crypto_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLT_Crypto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLT_Crypto_Example/Pods-YLT_Crypto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YLT_Crypto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A63A78C2E0C113BD70B9CC48E3DEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2DAE95F52DC52F33DEB35E0765D1B4 /* YLT_Crypto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLT_Crypto/YLT_Crypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLT_Crypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLT_Crypto/YLT_Crypto.modulemap";
+				PRODUCT_NAME = YLT_Crypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD20DB28F7082005D36132606AF62323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2DAE95F52DC52F33DEB35E0765D1B4 /* YLT_Crypto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLT_Crypto/YLT_Crypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLT_Crypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLT_Crypto/YLT_Crypto.modulemap";
+				PRODUCT_NAME = YLT_Crypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3A5F3316A3E7D6E0EDC1C922962AF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575F2308189C81BC4155C87412B769FA /* Pods-YLT_Crypto_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLT_Crypto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLT_Crypto_Example/Pods-YLT_Crypto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YLT_Crypto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FC22A61F22E9A0CA64B9CF98F74C7F /* Build configuration list for PBXNativeTarget "YLT_Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD20DB28F7082005D36132606AF62323 /* Debug */,
+				A6A63A78C2E0C113BD70B9CC48E3DEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F757B8AC58D9AB00B146F6C5208CD4 /* Build configuration list for PBXNativeTarget "Pods-YLT_Crypto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AE1A60466C2BAE56EE037C8A6D9FB1 /* Debug */,
+				950953AF1EAC8AF4CE441C7A023AB1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF5FDE3ED3F82C7DA71602932E37E5E /* Build configuration list for PBXNativeTarget "Pods-YLT_Crypto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEA71FD046A81A9A7DF08CD026F5EAB /* Debug */,
+				D3A5F3316A3E7D6E0EDC1C922962AF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
