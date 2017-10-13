@@ -2,7 +2,7 @@
 //  YLT_AESCrypto.m
 //  YLT_Crypto
 //
-//  Created by QTEC on 2017/10/12.
+//  Created by YLT on 2017/10/12.
 //
 
 #import "YLT_AESCrypto.h"

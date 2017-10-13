@@ -18,6 +18,8 @@
 		454751418A345CD8717C6C99603CCACD /* YLT_CryptoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA60ABA3D17A1675CFD37FB88E4A539 /* YLT_CryptoTools.m */; };
 		4F39E8274AC26E6F4CBE01248B60A1DB /* YLT_AESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */; };
 		56339A0F3F41EA9B547401AFC997DE02 /* YLT_AESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631A97711F906B3D00300172 /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 631A976F1F906B3D00300172 /* NSString+Hash.h */; };
+		631A97721F906B3D00300172 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A97701F906B3D00300172 /* NSString+Hash.m */; };
 		A43598B96DC4EC202F09ADF8DFF390A5 /* YLT_DESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEFCA2ADD9FC4B79C015B91541C463E /* YLT_DESCrypto.m */; };
 		B0778ECECA057298FFBB5071DCE7DFCB /* Pods-YLT_Crypto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B251DA943F36CF165B4FC97F405BF27D /* Pods-YLT_Crypto_Example-dummy.m */; };
 		B4724D5C4C7478B0A7A46B944E7A7DE6 /* YLT_Crypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4556DE4C319BB32168463176FC33F9CA /* YLT_Crypto-dummy.m */; };
@@ -41,7 +43,7 @@
 		03C1E1993C9F032B68ADF17F1609BF51 /* Pods-YLT_Crypto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_AESCrypto.h; path = YLT_Crypto/Classes/YLT_AESCrypto.h; sourceTree = "<group>"; };
 		1CBF5B454EB098977FA5EAD342E77B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F210E5BBD183E78C464AECED225931D /* Pods-YLT_Crypto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLT_Crypto_Tests.modulemap"; sourceTree = "<group>"; };
+		1F210E5BBD183E78C464AECED225931D /* Pods-YLT_Crypto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YLT_Crypto_Tests.modulemap"; sourceTree = "<group>"; };
 		2697965461B9DF0654F85B72CA8CA4B8 /* Pods-YLT_Crypto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLT_Crypto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2820A2DDF1D64BA36408025A51B79C8B /* Pods-YLT_Crypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4556DE4C319BB32168463176FC33F9CA /* YLT_Crypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLT_Crypto-dummy.m"; sourceTree = "<group>"; };
@@ -49,18 +51,20 @@
 		51F2EFC16F6499CF2E8B2B9BA4559194 /* Pods-YLT_Crypto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Tests-resources.sh"; sourceTree = "<group>"; };
 		527A6A83D26B28D8A70F221C09444E10 /* Pods-YLT_Crypto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_Crypto_Tests-dummy.m"; sourceTree = "<group>"; };
 		575F2308189C81BC4155C87412B769FA /* Pods-YLT_Crypto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLT_Crypto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		631A976F1F906B3D00300172 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "YLT_Crypto/Classes/NSString+Hash.h"; sourceTree = "<group>"; };
+		631A97701F906B3D00300172 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "YLT_Crypto/Classes/NSString+Hash.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		742375A73C461F72E331C11CE4F2B333 /* Pods-YLT_Crypto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLT_Crypto_Example.modulemap"; sourceTree = "<group>"; };
+		742375A73C461F72E331C11CE4F2B333 /* Pods-YLT_Crypto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YLT_Crypto_Example.modulemap"; sourceTree = "<group>"; };
 		7BA60ABA3D17A1675CFD37FB88E4A539 /* YLT_CryptoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_CryptoTools.m; path = YLT_Crypto/Classes/YLT_CryptoTools.m; sourceTree = "<group>"; };
 		83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLT_AESCrypto.m; path = YLT_Crypto/Classes/YLT_AESCrypto.m; sourceTree = "<group>"; };
 		8601BDBA80D48447669CD4BEA114C181 /* Pods-YLT_Crypto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLT_Crypto_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8D4E6C0FED065E8C238A5FDEEAE16D2E /* YLT_RSACrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_RSACrypto.h; path = YLT_Crypto/Classes/YLT_RSACrypto.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9424C14B9BD4B82907C9CFCE4DF5E69C /* Pods_YLT_Crypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLT_Crypto_Example.framework; path = "Pods-YLT_Crypto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		962BA33817746C890F566A675018D8FB /* YLT_Crypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YLT_Crypto.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9424C14B9BD4B82907C9CFCE4DF5E69C /* Pods_YLT_Crypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLT_Crypto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962BA33817746C890F566A675018D8FB /* YLT_Crypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YLT_Crypto.modulemap; sourceTree = "<group>"; };
 		96634FB5F75289EFF68802ABE0B20B8E /* Pods-YLT_Crypto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLT_Crypto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A1C3886921D3C5F62BEE45629CFFA6BB /* Pods-YLT_Crypto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLT_Crypto_Example-umbrella.h"; sourceTree = "<group>"; };
-		A2A27B471C2E0987D7779F94785C6F07 /* YLT_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLT_Crypto.framework; path = YLT_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A27B471C2E0987D7779F94785C6F07 /* YLT_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLT_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CF661F574E4E30B334B8A70A461DBE /* YLT_CryptoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_CryptoTools.h; path = YLT_Crypto/Classes/YLT_CryptoTools.h; sourceTree = "<group>"; };
 		AC34D72E7CB29F3594664E0252CAED9B /* Pods-YLT_Crypto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B251DA943F36CF165B4FC97F405BF27D /* Pods-YLT_Crypto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLT_Crypto_Example-dummy.m"; sourceTree = "<group>"; };
@@ -75,7 +79,7 @@
 		EA2DAE95F52DC52F33DEB35E0765D1B4 /* YLT_Crypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLT_Crypto.xcconfig; sourceTree = "<group>"; };
 		EA9C5CF5EE10B9CBA2FCB1C3B0C4AB90 /* YLT_Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLT_Crypto.h; path = YLT_Crypto/Classes/YLT_Crypto.h; sourceTree = "<group>"; };
 		EABFDBBC5408662ECF94D46E1B4471D1 /* Pods-YLT_Crypto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLT_Crypto_Example-resources.sh"; sourceTree = "<group>"; };
-		F62C91D92B3508CBF69420032042EFDB /* Pods_YLT_Crypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLT_Crypto_Tests.framework; path = "Pods-YLT_Crypto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62C91D92B3508CBF69420032042EFDB /* Pods_YLT_Crypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLT_Crypto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73C125A8D6DBD33562518A76776BD4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91BA89AE7A6C0FF08704EA02AEA1669 /* YLT_Crypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLT_Crypto-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +168,8 @@
 		8A7A70486F4E6DCE8332A40148D1F01D /* YLT_Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				631A976F1F906B3D00300172 /* NSString+Hash.h */,
+				631A97701F906B3D00300172 /* NSString+Hash.m */,
 				1415976B242FF3D27924466AF421CE6F /* YLT_AESCrypto.h */,
 				83D16A1E8A1C5F6E2302AE41881213CD /* YLT_AESCrypto.m */,
 				EA9C5CF5EE10B9CBA2FCB1C3B0C4AB90 /* YLT_Crypto.h */,
@@ -249,6 +255,7 @@
 				3EA745921B51BDB80815216D35DA2134 /* YLT_Crypto-umbrella.h in Headers */,
 				319536886235C85D75D4BF5AA802FC9D /* YLT_Crypto.h in Headers */,
 				D3DA090BFE34638AB28B6CF0D32B7E2B /* YLT_CryptoTools.h in Headers */,
+				631A97711F906B3D00300172 /* NSString+Hash.h in Headers */,
 				C3C33694B3A3CD6BDC78B48F45F813A2 /* YLT_DESCrypto.h in Headers */,
 				D504F38C1637544C9B3F87A98FE1AC60 /* YLT_RSACrypto.h in Headers */,
 			);
@@ -359,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F39E8274AC26E6F4CBE01248B60A1DB /* YLT_AESCrypto.m in Sources */,
+				631A97721F906B3D00300172 /* NSString+Hash.m in Sources */,
 				B4724D5C4C7478B0A7A46B944E7A7DE6 /* YLT_Crypto-dummy.m in Sources */,
 				454751418A345CD8717C6C99603CCACD /* YLT_CryptoTools.m in Sources */,
 				A43598B96DC4EC202F09ADF8DFF390A5 /* YLT_DESCrypto.m in Sources */,
