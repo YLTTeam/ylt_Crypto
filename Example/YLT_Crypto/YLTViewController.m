@@ -42,7 +42,6 @@
     result = [YLT_AESCrypto dencryptString:result keyString:@"ylt" iv:ivData];
     NSLog(@"aes(CBC) 解密后字串: %@", result);
     
-    
     //1.加载公钥
     [[YLT_RSACrypto sharedInstance] loadPublicKey:[[NSBundle mainBundle] pathForResource:@"rsacert.der" ofType:nil]];
     //2. 加载私钥 - P12的文件  password : 生成P12 的时候设置的密码
@@ -52,7 +51,6 @@
     //base64 编码
     NSString * base64 = [reault base64EncodedStringWithOptions:0];
     NSLog(@"RSA 加密的信息: %@",base64);
-    
     //解密
     NSData * jiemi = [[YLT_RSACrypto sharedInstance] decryptData:reault];
     NSLog(@"RSA 解密的信息： %@",[[NSString alloc]initWithData:jiemi encoding:NSUTF8StringEncoding]);
