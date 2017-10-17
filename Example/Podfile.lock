@@ -1,5 +1,5 @@
 PODS:
-  - YLT_Crypto (0.1.0)
+  - YLT_Crypto (0.0.2)
 
 DEPENDENCIES:
   - YLT_Crypto (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YLT_Crypto: d1a5e5b5f25aa6b940af6de0842dbb2bc3c9dda0
+  YLT_Crypto: 52343843bf8993d3717096c31643f4cf431f92c6
 
 PODFILE CHECKSUM: 0115bc42721d4d151aec2ae45d6e89d1267a73bf
 

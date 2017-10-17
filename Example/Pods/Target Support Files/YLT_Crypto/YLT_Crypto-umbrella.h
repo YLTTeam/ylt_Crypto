@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+Hash.h"
 #import "YLT_AESCrypto.h"
 #import "YLT_Crypto.h"
 #import "YLT_CryptoTools.h"
