@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLT_Crypto'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'iOS 常用加密算法'
 
 # This description is used to generate tags and improve search results.
