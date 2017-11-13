@@ -30,4 +30,25 @@
  */
 + (NSString *)dencryptString:(NSString *)sourceString keyString:(NSString *)keyString iv:(NSData *)iv;
 
+/**
+ AES 加密数据
+ 
+ @param sourceData 源
+ @param keyString 密钥
+ @param iv 向量(8字节)
+ @return 加密后数据
+ */
++ (NSData *)encryptData:(NSData *)sourceData keyString:(NSString *)keyString iv:(NSData *)iv;
+
+/**
+ AES 解密数据
+ 
+ @param sourceData 源
+ @param keyString 密钥
+ @param iv 向量(8字节)
+ @return 解密后的数据
+ */
++ (NSData *)dencryptData:(NSData *)sourceData keyString:(NSString *)keyString iv:(NSData *)iv;
+
+
 @end

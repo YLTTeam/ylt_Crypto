@@ -10,31 +10,29 @@
 @interface YLT_CryptoTools : NSObject
 
 /**
- AES、DES 加密字符串
+ AES、DES 加密数据
  
  @param algorithm
-     kCCAlgorithmAES     高级加密标准，128位(默认)
-     kCCAlgorithmDES     数据加密标准
- @param sourceString 源字串
- @param keyString 密钥
+ kCCAlgorithmAES     高级加密标准，128位(默认)
+ kCCAlgorithmDES     数据加密标准
+ @param sourceData   源内容
+ @param keyData 密钥
  @param iv 向量(8字节)
- @return 加密后的Base64字串
+ @return 加密后data
  */
-+ (NSString *)encryptType:(uint32_t)algorithm sourceString:(NSString *)sourceString keyString:(NSString *)keyString iv:(NSData *)iv;
++ (NSData *)encryptType:(uint32_t)algorithm sourceData:(NSData *)sourceData keyData:(NSData *)keyData iv:(NSData *)iv;
 
 /**
- AES、DES 解密字符串
+ AES、DES 解密字数据
  
  @param algorithm
-     kCCAlgorithmAES     高级加密标准，128位(默认)
-     kCCAlgorithmDES     数据加密标准
- @param sourceString 源字串
- @param keyString 密钥
+ kCCAlgorithmAES     高级加密标准，128位(默认)
+ kCCAlgorithmDES     数据加密标准
+ @param sourceData  源内容
+ @param keyData 密钥
  @param iv 向量(8字节)
- @return 解密后的字串
+ @return 解密后的data
  */
-+ (NSString *)dencrypt:(uint32_t)algorithm sourceString:(NSString *)sourceString keyString:(NSString *)keyString iv:(NSData *)iv;
-
-
++ (NSData *)dencryptType:(uint32_t)algorithm sourceData:(NSData *)sourceData keyData:(NSData *)keyData iv:(NSData *)iv;
 
 @end
