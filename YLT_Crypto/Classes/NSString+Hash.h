@@ -96,7 +96,7 @@
  计算文件的SHA1散列结果
  *
  * 终端测试命令：
- * openssl sha -sha1 file.dat
+ * openssl dgst -sha1 file.dat
  *
  @return 40个字符的SHA1散列字符串
  */
